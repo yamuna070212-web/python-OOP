@@ -1,0 +1,24 @@
+class Parent:
+
+    def show(self):
+        print("Parent Class")
+
+
+class Child1(Parent):
+
+    def display(self):
+        print("Child1")
+
+
+class Child2(Parent):
+
+    def display(self):
+        print("Child2")
+c1 = Child1()
+c2 = Child2()
+
+c1.show()
+c2.show()
+Output
+Parent Class
+Parent Class
