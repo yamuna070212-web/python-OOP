@@ -1,0 +1,17 @@
+class Employee:
+
+    def __init__(self, name):
+        self.name = name
+
+
+class Manager(Employee):
+
+    def display(self):
+        print("Manager:", self.name)
+
+
+m = Manager("John")
+
+m.display()
+Output
+Manager: John
