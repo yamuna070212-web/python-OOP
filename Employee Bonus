@@ -1,0 +1,13 @@
+class Employee:
+
+    def __init__(self, salary):
+        self.salary = salary
+
+    def bonus(self):
+        print("Bonus =", self.salary * 0.10)
+
+e = Employee(50000)
+
+e.bonus()
+Output
+Bonus = 5000.0
