@@ -1,0 +1,10 @@
+class Student:
+
+    def display(self):
+        print("Welcome to Python OOP")
+
+s = Student()
+
+s.display()
+Output
+Welcome to Python OOP
