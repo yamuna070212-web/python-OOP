@@ -1,0 +1,19 @@
+class Vehicle:
+
+    def start(self):
+        print("Vehicle Started")
+
+
+class Bike(Vehicle):
+
+    def ride(self):
+        print("Bike Riding")
+
+
+b = Bike()
+
+b.start()
+b.ride()
+Output
+Vehicle Started
+Bike Riding
