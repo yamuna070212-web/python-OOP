@@ -1,0 +1,8 @@
+class Employee:
+
+    def __init__(self):
+        print("Constructor Called")
+
+e = Employee()
+Output
+Constructor Called
