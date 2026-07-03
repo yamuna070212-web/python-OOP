@@ -1,0 +1,9 @@
+class Demo:
+
+    @classmethod
+    def message(cls):
+        print("Class Method")
+
+Demo.message()
+Output
+Class Method
