@@ -1,0 +1,9 @@
+class Demo:
+
+    @staticmethod
+    def welcome():
+        print("Static Method")
+
+Demo.welcome()
+Output
+Static Method
