@@ -1,0 +1,17 @@
+class Bank:
+
+    def __init__(self):
+        self.balance = 8000
+
+    def withdraw(self, amount):
+
+        if amount <= self.balance:
+            self.balance -= amount
+
+        print("Balance =", self.balance)
+
+b = Bank()
+
+b.withdraw(3000)
+Output
+Balance = 5000
