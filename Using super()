@@ -1,0 +1,19 @@
+class Parent:
+
+    def display(self):
+        print("Parent Method")
+
+
+class Child(Parent):
+
+    def display(self):
+        super().display()
+        print("Child Method")
+
+
+c = Child()
+
+c.display()
+Output
+Parent Method
+Child Method
