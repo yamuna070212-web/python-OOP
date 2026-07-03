@@ -1,0 +1,26 @@
+class A:
+
+    def displayA(self):
+        print("Class A")
+
+
+class B(A):
+
+    def displayB(self):
+        print("Class B")
+
+
+class C(B):
+
+    def displayC(self):
+        print("Class C")
+
+obj = C()
+
+obj.displayA()
+obj.displayB()
+obj.displayC()
+Output
+Class A
+Class B
+Class C
