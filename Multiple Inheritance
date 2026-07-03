@@ -1,0 +1,21 @@
+class Father:
+
+    def money(self):
+        print("Father's Money")
+
+
+class Mother:
+
+    def gold(self):
+        print("Mother's Gold")
+
+
+class Child(Father, Mother):
+    pass
+c = Child()
+
+c.money()
+c.gold()
+Output
+Father's Money
+Mother's Gold
