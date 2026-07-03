@@ -1,0 +1,13 @@
+class Car:
+
+    def __init__(self, brand, price):
+        self.brand = brand
+        self.price = price
+
+car = Car("Toyota", 1500000)
+
+print(car.brand)
+print(car.price)
+Output
+Toyota
+1500000
