@@ -1,0 +1,17 @@
+class Person:
+
+    def __init__(self):
+        print("Person Constructor")
+
+
+class Student(Person):
+
+    def __init__(self):
+        super().__init__()
+        print("Student Constructor")
+
+
+s = Student()
+Output
+Person Constructor
+Student Constructor
