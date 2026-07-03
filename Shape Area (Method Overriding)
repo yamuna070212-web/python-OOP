@@ -1,0 +1,17 @@
+class Shape:
+
+    def area(self):
+        print("Area")
+
+
+class Square(Shape):
+
+    def area(self):
+        print(5 * 5)
+
+
+s = Square()
+
+s.area()
+Output
+25
