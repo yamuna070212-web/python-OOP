@@ -1,0 +1,8 @@
+class Student:
+    name = "Ram"
+
+s = Student()
+
+print(s.name)
+Output
+Ram
