@@ -1,0 +1,21 @@
+class Student:
+
+    def __init__(self, marks):
+        self.marks = marks
+
+    def grade(self):
+
+        if self.marks >= 90:
+            print("A")
+
+        elif self.marks >= 75:
+            print("B")
+
+        else:
+            print("C")
+
+s = Student(82)
+
+s.grade()
+Output
+B
