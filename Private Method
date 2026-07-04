@@ -1,0 +1,13 @@
+class Demo:
+
+    def __message(self):
+        print("Private Method")
+
+    def show(self):
+        self.__message()
+
+d = Demo()
+
+d.show()
+Output
+Private Method
