@@ -1,0 +1,18 @@
+class Book:
+
+    def __init__(self, title):
+        self.title = title
+        self.available = True
+
+    def issue(self):
+        self.available = False
+
+    def status(self):
+        print("Available" if self.available else "Issued")
+
+b = Book("Python")
+
+b.issue()
+b.status()
+Output
+Issued
