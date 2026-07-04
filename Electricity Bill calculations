@@ -1,0 +1,13 @@
+class Electricity:
+
+    def __init__(self, units):
+        self.units = units
+
+    def bill(self):
+        print("Bill =", self.units * 8)
+
+e = Electricity(150)
+
+e.bill()
+Output
+Bill = 1200
