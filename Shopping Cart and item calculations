@@ -1,0 +1,18 @@
+class Cart:
+
+    def __init__(self):
+        self.total = 0
+
+    def add(self, price):
+        self.total += price
+
+    def bill(self):
+        print("Total =", self.total)
+
+c = Cart()
+
+c.add(200)
+c.add(400)
+c.bill()
+Output
+Total = 600
