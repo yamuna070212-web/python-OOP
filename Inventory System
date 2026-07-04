@@ -1,0 +1,19 @@
+class Product:
+
+    def __init__(self, name, qty):
+        self.name = name
+        self.qty = qty
+
+    def sell(self, amount):
+        self.qty -= amount
+
+    def display(self):
+        print(self.name, self.qty)
+
+p = Product("Pen", 100)
+
+p.sell(20)
+
+p.display()
+Output
+Pen 80
