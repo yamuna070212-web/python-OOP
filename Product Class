@@ -1,0 +1,16 @@
+class Product:
+
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+    def display(self):
+        print(self.name)
+        print(self.price)
+
+p = Product("Laptop", 55000)
+
+p.display()
+Output
+Laptop
+55000
