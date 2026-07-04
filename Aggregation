@@ -1,0 +1,20 @@
+class Employee:
+
+    def __init__(self, name):
+        self.name = name
+
+class Department:
+
+    def __init__(self, emp):
+        self.emp = emp
+
+    def display(self):
+        print(self.emp.name)
+
+e = Employee("Ram")
+
+d = Department(e)
+
+d.display()
+Output
+Ram
