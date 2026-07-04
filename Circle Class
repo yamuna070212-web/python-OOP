@@ -1,0 +1,13 @@
+class Circle:
+
+    def __init__(self, r):
+        self.r = r
+
+    def circumference(self):
+        print(2 * 3.14 * self.r)
+
+c = Circle(7)
+
+c.circumference()
+Output
+43.96
