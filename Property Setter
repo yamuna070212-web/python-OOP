@@ -1,0 +1,20 @@
+class Student:
+
+    def __init__(self):
+        self.__marks = 0
+
+    @property
+    def marks(self):
+        return self.__marks
+
+    @marks.setter
+    def marks(self, value):
+        self.__marks = value
+
+s = Student()
+
+s.marks = 99
+
+print(s.marks)
+Output
+99
