@@ -1,0 +1,17 @@
+class Bird:
+
+    def fly(self):
+        print("Bird Flying")
+
+
+class Airplane:
+
+    def fly(self):
+        print("Airplane Flying")
+
+
+for obj in [Bird(), Airplane()]:
+    obj.fly()
+Output
+Bird Flying
+Airplane Flying
