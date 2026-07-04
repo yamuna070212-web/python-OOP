@@ -1,0 +1,9 @@
+class Student:
+    pass
+
+
+s = Student()
+
+print(type(s))
+Output
+<class '__main__.Student'>
