@@ -1,0 +1,13 @@
+class Account:
+
+    def __init__(self, balance):
+        self.balance = balance
+
+    def check(self):
+        print("Balance =", self.balance)
+
+a = Account(15000)
+
+a.check()
+Output
+Balance = 15000
