@@ -1,0 +1,16 @@
+class Order:
+
+    def __init__(self, item, price):
+        self.item = item
+        self.price = price
+
+    def display(self):
+        print(self.item)
+        print(self.price)
+
+o = Order("Mobile", 25000)
+
+o.display()
+Output
+Mobile
+25000
