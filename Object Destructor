@@ -1,0 +1,10 @@
+class Demo:
+
+    def __del__(self):
+        print("Object Destroyed")
+
+d = Demo()
+
+del d
+Output
+Object Destroyed
