@@ -1,0 +1,15 @@
+class Mobile:
+
+    def __init__(self):
+        self.balance = 0
+
+    def recharge(self, amount):
+        self.balance += amount
+
+m = Mobile()
+
+m.recharge(299)
+
+print(m.balance)
+Output
+299
