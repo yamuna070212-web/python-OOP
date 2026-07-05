@@ -1,0 +1,15 @@
+class Car:
+
+    def __init__(self):
+        self.speed = 0
+
+    def accelerate(self):
+        self.speed += 20
+
+car = Car()
+
+car.accelerate()
+
+print(car.speed)
+Output
+20
