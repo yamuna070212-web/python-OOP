@@ -1,0 +1,13 @@
+class Student:
+
+    def __init__(self, total):
+        self.total = total
+
+    def percentage(self):
+        print(self.total / 5)
+
+s = Student(450)
+
+s.percentage()
+Output
+90.0
