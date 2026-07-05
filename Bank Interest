@@ -1,0 +1,13 @@
+class Bank:
+
+    def __init__(self, amount):
+        self.amount = amount
+
+    def interest(self):
+        return self.amount * 0.05
+
+b = Bank(10000)
+
+print(b.interest())
+Output
+500.0
