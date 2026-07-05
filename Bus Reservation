@@ -1,0 +1,14 @@
+class Bus:
+
+    def __init__(self):
+        self.seats = 40
+
+    def reserve(self, seats):
+        self.seats -= seats
+        print("Available:", self.seats)
+
+b = Bus()
+
+b.reserve(5)
+Output
+Available: 35
