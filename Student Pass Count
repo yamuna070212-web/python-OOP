@@ -1,0 +1,16 @@
+class Student:
+
+    passed = 0
+
+    def __init__(self, marks):
+
+        if marks >= 35:
+            Student.passed += 1
+
+Student(90)
+Student(20)
+Student(80)
+
+print(Student.passed)
+Output
+2
