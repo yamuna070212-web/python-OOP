@@ -1,0 +1,10 @@
+class Greeting:
+
+    def __call__(self):
+        print("Welcome!")
+
+g = Greeting()
+
+g()
+Output
+Welcome!
