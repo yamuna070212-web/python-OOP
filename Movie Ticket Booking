@@ -1,0 +1,17 @@
+class Movie:
+
+    def __init__(self):
+        self.seats = 5
+
+    def book(self):
+
+        if self.seats > 0:
+            self.seats -= 1
+
+        print("Seats Left:", self.seats)
+
+m = Movie()
+
+m.book()
+Output
+Seats Left: 4
