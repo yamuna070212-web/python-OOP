@@ -1,0 +1,16 @@
+class Patient:
+
+    def __init__(self, name, disease):
+        self.name = name
+        self.disease = disease
+
+    def display(self):
+        print(self.name)
+        print(self.disease)
+
+p = Patient("Rahul", "Fever")
+
+p.display()
+Output
+Rahul
+Fever
