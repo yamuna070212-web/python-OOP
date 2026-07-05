@@ -1,0 +1,15 @@
+class Employee:
+
+    def __init__(self, salary):
+        self.salary = salary
+
+    def increment(self):
+        self.salary += 5000
+
+e = Employee(30000)
+
+e.increment()
+
+print(e.salary)
+Output
+35000
