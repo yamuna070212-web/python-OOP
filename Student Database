@@ -1,0 +1,15 @@
+class Student:
+
+    def __init__(self, name):
+        self.name = name
+
+students = []
+
+students.append(Student("Ram"))
+students.append(Student("Asha"))
+
+for s in students:
+    print(s.name)
+Output
+Ram
+Asha
