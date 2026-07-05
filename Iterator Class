@@ -1,0 +1,23 @@
+ def __iter__(self):
+        self.x = 1
+        return self
+
+    def __next__(self):
+
+        if self.x <= 5:
+            value = self.x
+            self.x += 1
+            return value
+
+        raise StopIteration
+
+obj = Numbers()
+
+for i in obj:
+    print(i)
+Output
+1
+2
+3
+4
+5
