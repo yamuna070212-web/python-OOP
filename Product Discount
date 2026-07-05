@@ -1,0 +1,13 @@
+class Product:
+
+    def __init__(self, price):
+        self.price = price
+
+    def discount(self):
+        print(self.price * 0.90)
+
+p = Product(1000)
+
+p.discount()
+Output
+900.0
