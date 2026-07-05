@@ -1,0 +1,16 @@
+class Player:
+
+    def __init__(self, name, runs):
+        self.name = name
+        self.runs = runs
+
+    def display(self):
+        print(self.name)
+        print(self.runs)
+
+p = Player("Virat", 120)
+
+p.display()
+Output
+Virat
+120
