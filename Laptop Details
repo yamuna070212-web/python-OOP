@@ -1,0 +1,13 @@
+class Laptop:
+
+    def __init__(self, brand, ram):
+        self.brand = brand
+        self.ram = ram
+
+l = Laptop("HP", "16GB")
+
+print(l.brand)
+print(l.ram)
+Output
+HP
+16GB
