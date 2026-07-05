@@ -1,0 +1,19 @@
+class Employee:
+
+    def __init__(self):
+        self.days = 0
+
+    def attend(self):
+        self.days += 1
+
+    def show(self):
+        print(self.days)
+
+e = Employee()
+
+e.attend()
+e.attend()
+
+e.show()
+Output
+2
