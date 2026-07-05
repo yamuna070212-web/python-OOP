@@ -1,0 +1,16 @@
+  class Student:
+
+    college = "VTU"
+
+    def __init__(self, name):
+        self.name = name
+
+    def display(self):
+        print(self.name)
+        print(Student.college)
+
+s = Student("Ram")
+s.display()
+Output
+Ram
+VTU
