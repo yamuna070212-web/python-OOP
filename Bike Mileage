@@ -1,0 +1,13 @@
+class Bike:
+
+    def __init__(self, mileage):
+        self.mileage = mileage
+
+    def show(self):
+        print(self.mileage)
+
+b = Bike(55)
+
+b.show()
+Output
+55
