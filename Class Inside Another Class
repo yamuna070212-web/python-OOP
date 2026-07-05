@@ -1,0 +1,12 @@
+class College:
+
+    class Student:
+
+        def display(self):
+            print("Nested Class")
+
+s = College.Student()
+
+s.display()
+Output
+Nested Class
