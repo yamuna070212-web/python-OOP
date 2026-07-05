@@ -1,0 +1,18 @@
+class Fee:
+
+    def __init__(self):
+        self.amount = 0
+
+    def pay(self, fee):
+        self.amount += fee
+
+    def display(self):
+        print(self.amount)
+
+f = Fee()
+
+f.pay(15000)
+
+f.display()
+Output
+15000
