@@ -1,0 +1,16 @@
+class Alphabet:
+
+    def count(self, text):
+        total = 0
+
+        for ch in text:
+            if ch.isalpha():
+                total += 1
+
+        print(total)
+
+a = Alphabet()
+
+a.count("Python123")
+Output
+6
