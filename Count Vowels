@@ -1,0 +1,18 @@
+class Vowels:
+
+    def count(self, text):
+
+        total = 0
+
+        for ch in text.lower():
+
+            if ch in "aeiou":
+                total += 1
+
+        print(total)
+
+v = Vowels()
+
+v.count("Python Programming")
+Output
+4
