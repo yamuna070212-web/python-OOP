@@ -1,0 +1,14 @@
+class Number:
+
+    def check(self, n):
+
+        if n % 2 == 0:
+            print("Even")
+        else:
+            print("Odd")
+
+obj = Number()
+
+obj.check(25)
+Output
+Odd
