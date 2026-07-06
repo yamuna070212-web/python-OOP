@@ -1,0 +1,12 @@
+class Palindrome:
+
+    def check(self, text):
+
+        if text == text[::-1]:
+            print("Palindrome")
+        else:
+            print("Not Palindrome")
+
+p = Palindrome()
+
+p.check("madam")
