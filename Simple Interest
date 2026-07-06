@@ -1,0 +1,10 @@
+class Interest:
+
+    def calculate(self, p, r, t):
+        print((p * r * t) / 100)
+
+i = Interest()
+
+i.calculate(10000, 5, 2)
+Output
+1000.0
