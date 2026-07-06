@@ -1,0 +1,14 @@
+class LeapYear:
+
+    def check(self, year):
+
+        if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+            print("Leap Year")
+        else:
+            print("Not Leap Year")
+
+l = LeapYear()
+
+l.check(2024)
+Output
+Leap Year
