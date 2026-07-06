@@ -1,0 +1,10 @@
+class Words:
+
+    def count(self, text):
+        print(len(text.split()))
+
+w = Words()
+
+w.count("Python is easy to learn")
+Output
+5
