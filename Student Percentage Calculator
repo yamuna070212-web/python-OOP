@@ -1,0 +1,17 @@
+class Student:
+
+    def __init__(self, name, m1, m2, m3):
+        self.name = name
+        self.m1 = m1
+        self.m2 = m2
+        self.m3 = m3
+
+    def percentage(self):
+        total = self.m1 + self.m2 + self.m3
+        print("Percentage =", total / 3)
+
+s = Student("Ram", 80, 90, 85)
+
+s.percentage()
+Output
+Percentage = 85.0
