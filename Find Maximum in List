@@ -1,0 +1,10 @@
+class Maximum:
+
+    def find(self, numbers):
+        print(max(numbers))
+
+m = Maximum()
+
+m.find([10, 40, 25, 80, 5])
+Output
+80
