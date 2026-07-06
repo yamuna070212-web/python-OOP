@@ -1,0 +1,19 @@
+class Student:
+
+    def __init__(self):
+        self.marks = {}
+
+    def add(self, name, mark):
+        self.marks[name] = mark
+
+    def display(self):
+        print(self.marks)
+
+s = Student()
+
+s.add("Ram", 90)
+s.add("Asha", 95)
+
+s.display()
+Output
+{'Ram': 90, 'Asha': 95}
