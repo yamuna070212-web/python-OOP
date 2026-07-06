@@ -1,0 +1,13 @@
+class Employee:
+
+    def __init__(self, monthly_salary):
+        self.monthly_salary = monthly_salary
+
+    def annual_salary(self):
+        print(self.monthly_salary * 12)
+
+e = Employee(45000)
+
+e.annual_salary()
+Output
+540000
