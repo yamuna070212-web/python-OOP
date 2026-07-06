@@ -1,0 +1,14 @@
+class Search:
+
+    def find(self, numbers, key):
+
+        if key in numbers:
+            print("Found")
+        else:
+            print("Not Found")
+
+s = Search()
+
+s.find([10, 20, 30, 40], 30)
+Output
+Found
