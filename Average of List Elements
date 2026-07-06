@@ -1,0 +1,11 @@
+class Average:
+
+    def calculate(self, numbers):
+        print(sum(numbers) / len(numbers))
+
+a = Average()
+
+a.calculate([10, 20, 30, 40])
+Output
+25.0
+
