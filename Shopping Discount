@@ -1,0 +1,13 @@
+class Shopping:
+
+    def __init__(self, amount):
+        self.amount = amount
+
+    def final_amount(self):
+        print(self.amount - 100)
+
+s = Shopping(1500)
+
+s.final_amount()
+Output
+1400
