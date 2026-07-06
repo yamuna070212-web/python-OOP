@@ -1,0 +1,15 @@
+class Employee:
+
+    count = 0
+
+    def __init__(self):
+        Employee.count += 1
+
+Employee()
+Employee()
+Employee()
+Employee()
+
+print("Employees =", Employee.count)
+Output
+Employees = 4
