@@ -1,0 +1,11 @@
+class Swap:
+
+    def change(self, a, b):
+        a, b = b, a
+        print(a, b)
+
+s = Swap()
+
+s.change(10, 20)
+Output
+20 10
