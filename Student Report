@@ -1,0 +1,16 @@
+class Student:
+
+    def __init__(self, name, cgpa):
+        self.name = name
+        self.cgpa = cgpa
+
+    def display(self):
+        print("Name:", self.name)
+        print("CGPA:", self.cgpa)
+
+s = Student("Asha", 9.2)
+
+s.display()
+Output
+Name: Asha
+CGPA: 9.2
