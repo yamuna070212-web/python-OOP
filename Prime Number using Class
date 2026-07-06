@@ -1,0 +1,17 @@
+class Prime:
+
+    def check(self, n):
+
+        for i in range(2, n):
+
+            if n % i == 0:
+                print("Not Prime")
+                return
+
+        print("Prime")
+
+p = Prime()
+
+p.check(17)
+Output
+Prime
