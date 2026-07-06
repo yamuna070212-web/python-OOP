@@ -1,0 +1,16 @@
+class Uppercase:
+
+    def count(self, text):
+        total = 0
+
+        for ch in text:
+            if ch.isupper():
+                total += 1
+
+        print(total)
+
+u = Uppercase()
+
+u.count("Python Programming")
+Output
+2
