@@ -1,0 +1,23 @@
+class Electricity:
+
+    def __init__(self, units):
+        self.units = units
+
+    def bill(self):
+
+        if self.units <= 100:
+            amount = self.units * 5
+
+        elif self.units <= 200:
+            amount = self.units * 7
+
+        else:
+            amount = self.units * 10
+
+        print("Bill =", amount)
+
+e = Electricity(150)
+
+e.bill()
+Output
+Bill = 1050
