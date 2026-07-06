@@ -1,0 +1,8 @@
+class Temperature:
+
+    def convert(self, c):
+        print((c * 9/5) + 32)
+
+t = Temperature()
+
+t.convert(30)
