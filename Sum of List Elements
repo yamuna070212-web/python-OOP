@@ -1,0 +1,10 @@
+class SumList:
+
+    def calculate(self, numbers):
+        print(sum(numbers))
+
+s = SumList()
+
+s.calculate([5, 10, 15, 20])
+Output
+50
