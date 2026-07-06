@@ -1,0 +1,13 @@
+class Movie:
+
+    def __init__(self, rating):
+        self.rating = rating
+
+    def display(self):
+        print(self.rating)
+
+m = Movie(4.8)
+
+m.display()
+Output
+4.8
