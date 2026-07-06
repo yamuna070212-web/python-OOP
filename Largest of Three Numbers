@@ -1,0 +1,10 @@
+class Largest:
+
+    def find(self, a, b, c):
+        print(max(a, b, c))
+
+l = Largest()
+
+l.find(10, 80, 50)
+Output
+80
