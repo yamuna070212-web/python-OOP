@@ -1,0 +1,16 @@
+class Lowercase:
+
+    def count(self, text):
+        total = 0
+
+        for ch in text:
+            if ch.islower():
+                total += 1
+
+        print(total)
+
+l = Lowercase()
+
+l.count("Python Programming")
+Output
+15
