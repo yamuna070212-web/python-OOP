@@ -1,0 +1,13 @@
+class Doctor:
+
+    def __init__(self, name, dept):
+        self.name = name
+        self.dept = dept
+
+d = Doctor("Ravi", "Cardiology")
+
+print(d.name)
+print(d.dept)
+Output
+Ravi
+Cardiology
