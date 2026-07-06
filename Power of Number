@@ -1,0 +1,10 @@
+class Power:
+
+    def calculate(self, a, b):
+        print(a ** b)
+
+p = Power()
+
+p.calculate(2, 5)
+Output
+32
