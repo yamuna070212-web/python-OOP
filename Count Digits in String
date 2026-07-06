@@ -1,0 +1,16 @@
+class DigitCount:
+
+    def count(self, text):
+        total = 0
+
+        for ch in text:
+            if ch.isdigit():
+                total += 1
+
+        print(total)
+
+d = DigitCount()
+
+d.count("Python2025")
+Output
+4
