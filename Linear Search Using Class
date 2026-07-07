@@ -1,0 +1,14 @@
+class LinearSearch:
+
+    def search(self, arr, key):
+        for i in range(len(arr)):
+            if arr[i] == key:
+                print("Element Found at Index", i)
+                return
+        print("Element Not Found")
+
+obj = LinearSearch()
+
+obj.search([10, 20, 30, 40, 50], 40)
+Output
+Element Found at Index 3
