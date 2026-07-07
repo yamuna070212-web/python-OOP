@@ -1,0 +1,19 @@
+class Player:
+
+    def __init__(self,name):
+        self.name=name
+        self.runs=0
+
+    def score(self,r):
+        self.runs+=r
+
+    def display(self):
+        print(self.name,self.runs)
+
+p=Player("Virat")
+
+p.score(75)
+
+p.display()
+Output
+Virat 75
