@@ -1,0 +1,9 @@
+class Space:
+
+    def count(self, text):
+        print(text.count(" "))
+
+s = Space()
+s.count("Python is very easy")
+Output
+3
