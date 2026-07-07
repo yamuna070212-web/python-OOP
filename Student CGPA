@@ -1,0 +1,17 @@
+class Student:
+
+    def __init__(self,cgpa):
+        self.cgpa=cgpa
+
+    def grade(self):
+
+        if self.cgpa>=9:
+            print("Excellent")
+        else:
+            print("Good")
+
+s=Student(9.3)
+
+s.grade()
+Output
+Excellent
