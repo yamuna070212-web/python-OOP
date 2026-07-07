@@ -1,0 +1,19 @@
+class Hotel:
+
+    def __init__(self):
+        self.total=0
+
+    def order(self,price):
+        self.total+=price
+
+    def bill(self):
+        print(self.total)
+
+h=Hotel()
+
+h.order(200)
+h.order(350)
+
+h.bill()
+Output
+550
