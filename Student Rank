@@ -1,0 +1,17 @@
+class Student:
+
+    def __init__(self, marks):
+        self.marks = marks
+
+    def rank(self):
+        if self.marks >= 90:
+            print("Rank 1")
+        elif self.marks >= 75:
+            print("Rank 2")
+        else:
+            print("Rank 3")
+
+s = Student(94)
+s.rank()
+Output
+Rank 1
