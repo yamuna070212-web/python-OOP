@@ -1,0 +1,9 @@
+class Voter:
+
+    def check(self, age):
+        print("Eligible" if age >= 18 else "Not Eligible")
+
+v = Voter()
+v.check(21)
+Output
+Eligible
