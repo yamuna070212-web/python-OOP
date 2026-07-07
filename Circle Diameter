@@ -1,0 +1,12 @@
+class Circle:
+
+    def __init__(self, radius):
+        self.radius = radius
+
+    def diameter(self):
+        print(2 * self.radius)
+
+c = Circle(8)
+c.diameter()
+Output
+16
