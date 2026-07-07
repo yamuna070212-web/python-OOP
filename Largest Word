@@ -1,0 +1,10 @@
+class LargestWord:
+
+    def find(self, text):
+        words = text.split()
+        print(max(words, key=len))
+
+l = LargestWord()
+l.find("Python programming language")
+Output
+programming
