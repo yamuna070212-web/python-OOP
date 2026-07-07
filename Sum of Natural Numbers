@@ -1,0 +1,9 @@
+class Sum:
+
+    def calculate(self, n):
+        print(n * (n + 1) // 2)
+
+s = Sum()
+s.calculate(10)
+Output
+55
