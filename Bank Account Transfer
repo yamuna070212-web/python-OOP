@@ -1,0 +1,18 @@
+class Bank:
+
+    def __init__(self, balance):
+        self.balance = balance
+
+    def transfer(self, amount):
+        if amount <= self.balance:
+            self.balance -= amount
+            print("Transfer Successful")
+            print("Balance =", self.balance)
+        else:
+            print("Insufficient Balance")
+
+b = Bank(10000)
+b.transfer(3500)
+Output
+Transfer Successful
+Balance = 6500
