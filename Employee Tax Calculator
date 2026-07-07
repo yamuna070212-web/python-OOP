@@ -1,0 +1,13 @@
+class Employee:
+
+    def __init__(self,salary):
+        self.salary=salary
+
+    def tax(self):
+        print(self.salary*0.1)
+
+e=Employee(60000)
+
+e.tax()
+Output
+6000.0
