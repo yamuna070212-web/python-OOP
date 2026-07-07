@@ -1,0 +1,23 @@
+class ATM:
+
+    def __init__(self):
+        self.balance=5000
+
+    def deposit(self,amount):
+        self.balance+=amount
+
+    def withdraw(self,amount):
+        if amount<=self.balance:
+            self.balance-=amount
+
+    def display(self):
+        print("Balance =",self.balance)
+
+atm=ATM()
+
+atm.deposit(3000)
+atm.withdraw(2000)
+
+atm.display()
+Output
+Balance = 6000
