@@ -1,0 +1,9 @@
+class Count:
+
+    def total(self, lst):
+        print(len(lst))
+
+c = Count()
+c.total([10,20,30,40])
+Output
+4
