@@ -1,0 +1,10 @@
+class Even:
+
+    def display(self, n):
+        for i in range(2, n + 1, 2):
+            print(i, end=" ")
+
+e = Even()
+e.display(10)
+Output
+2 4 6 8 10
