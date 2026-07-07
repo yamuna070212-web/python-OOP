@@ -1,0 +1,20 @@
+class Employee:
+
+    count=100
+
+    def __init__(self,name):
+        Employee.count+=1
+        self.id=Employee.count
+        self.name=name
+
+    def display(self):
+        print(self.id,self.name)
+
+e1=Employee("Ram")
+e2=Employee("John")
+
+e1.display()
+e2.display()
+Output
+101 Ram
+102 John
